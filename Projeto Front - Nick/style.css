@@ -1,0 +1,538 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* SEÇÃO PADRONIZADAS */
+.containerTitulo{
+    width: 1200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.titulo{
+    width: 320px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(177, 176, 176);
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* JS */
+.action-button{
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50PX;
+    color: #00000000;
+    user-select: none;
+    z-index: 1;
+    border-radius: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.action-button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+/* SEÇÃO DO MENU */
+#containerMenu{
+    width: 100%;
+    height: 115px;
+    background-color: darkblue;
+}
+
+#containerLogo{
+    width: 1200px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure{
+    width: 135px;
+    height: 70px;
+    background-color: darkblue;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+figure img{
+    width: inherit;
+    height: inherit;
+}
+
+#containerPesquisa{
+    width: 550px;
+    height: 70px;
+    margin-left: 80px;
+    float: left;
+}
+
+#pesquisa{
+    position: absolute;
+    width: auto;
+    height: 40px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#input-pesquisa{
+    width: 590px;
+    height: 40px;
+
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    float: left;
+}
+
+#icon-pesquisa{
+    width: 30px;
+    height: 40px;
+    background-color: black;
+    margin-left: 570px;
+
+    
+}
+
+#containerCadastro{
+    width: 110px;
+    height: inherit;
+    margin-left: 900px;
+}
+
+#cadastro{
+    width: 110px;
+    height: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+
+#button-cadastro{
+    width: 110px;
+    height: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(59, 79, 255, 0.774);
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#button-cadastro:hover{
+    box-shadow: 1px 1px 10px rgba(0, 110, 236, 0.589);
+}
+
+#containerLogin{
+    width: 150px;
+    height: 70px;
+    margin-left: 1046px;
+    top: 0px;
+    position: absolute;
+    float: left;
+}
+
+#login{
+    width: inherit;
+    height: 60px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px  groove white;
+    background-color: darkblue;
+    float: left;
+}
+
+#foto{
+    width: 58px;
+    height: 57px;
+    float: left;
+    background-color: lavenderblush;
+    border-radius: 50px;
+}
+
+#entrar{
+    width: 90px;
+    height: inherit;
+    float: left;
+}
+
+#text-entrar{
+    width: inherit;
+    height: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-40%);
+
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgba(161, 160, 160, 0.781);
+}
+
+/* MENU  */
+nav{
+    width: 1200px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container-localização{
+    width: 150px;
+    height: 35px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+
+#img-local{
+    width: 30px;
+    height: 25px;
+    float: left;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-image: url(img/local.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#local{
+    width: 120px;
+    height: inherit;
+    float: left;
+    background-color: aliceblue;
+}
+
+.menu{
+    width: 980px;
+    height: 40px;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-52%);
+}
+
+ul{
+    float: left;
+    display: flex;
+    margin-left: 20px;
+}
+
+li{
+    width: 190px;
+    height: 40px;
+    list-style: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.text-menu{
+    width: inherit;
+    height: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-52%);
+
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#container-carrinho{
+    width: 40px;
+    height: 30px;
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-image: url(img/carrinho.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* SLIDE */
+#container-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    height: 500px;
+    background-color: black;
+    /* margin: 20vh auto; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+}
+
+.container-items{
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+}
+
+.item {
+    width: inherit;
+    height: inherit;
+    transition: all 1s;
+}
+.item:first-child{
+    margin-left: -100%;
+}
+
+.item img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+}
+
+/* MELHORES DESCONTOS */
+#container-descontos{
+    width: 1250px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#container-descontos .action-button {
+    float: left;
+    width: 40px;
+    margin-left: 15px;
+    border-radius: 100%;
+}
+
+#container-descontos .action-button:hover{
+    background-color: whitesmoke;
+}
+
+.cards-produtos{
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin-left: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 10px 10px 30px #5c5c5c;
+    cursor: pointer;
+}
+
+.cards-produtos:hover{
+    box-shadow: 5px 5px 5px #CCC;
+}
+
+.img{
+    width: 185px;
+    height: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    background-image: url(img/aguadecoco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text{
+    width: 185px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+/* BUSCA POR DEPARTAMENTOS */
+.container-departamentos{
+    width: 1200px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardsDepartamentos{
+    width: 350px;
+    height: 250px;
+    background-color: cadetblue;
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px 10px 10px 10px;
+
+    box-shadow: 1px 1px 10px rgb(214, 214, 214);
+}
+
+.cardsDepartamentos{
+    background-image: url(img/alimentos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cardsDepartamentos:hover{
+    
+    box-shadow: 5px 5px 10px #CCC;
+}
+
+.departamentos{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 0px 0px 10px 10px;
+}
+/* OUTRAS CATEGORIAS */
+.outras-categoria{
+    width: 1200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-cards{
+    width: 110px;
+    height: 170px;
+    float: left;
+    margin-left: 35px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-categorias{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    box-shadow: 1px 1px 10px #CCC;
+    border-radius: 100%;
+}
+
+.card-categorias{
+    background-image: url(img/alimentosParaBebes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.textCard{
+    width: inherit;
+    height: 70px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* MELHORES MARCAS */
+.containerMarcas{
+    width: 1200px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-marcas{
+    width: 100px;
+    height: 100px;
+    background-color: lavender;
+    border-radius: 100%;
+    margin-left: 45px;
+    float: left;
+    box-shadow: 5px 5px 10px #CCC;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-marcas{
+    background-image: url(img/dove.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* MERCADOS PRÓXIMOS */
+#containerMercados{
+    width: 1200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+}
+
+/* RODAPÉ */
+#containerRodape{
+    width: inherit;
+    height: 60px;
+    background-color: darkblue;
+}
+
+#rodape{
+    width: 1200px;
+    height: inherit;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
